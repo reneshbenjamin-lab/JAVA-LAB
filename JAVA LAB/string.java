@@ -9,7 +9,7 @@ class StringStats {
 
         int upper = 0, lower = 0, digits = 0, spaces = 0;
 
-        // Loop through each character of the string
+        
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
 
@@ -27,7 +27,7 @@ class StringStats {
             }
         }
 
-        // Display results
+        
         System.out.println("Uppercase letters: " + upper);
         System.out.println("Lowercase letters: " + lower);
         System.out.println("Digits: " + digits);
